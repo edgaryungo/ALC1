@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pActivity">
+
+    <ImageView
+        android:id="@+id/iprofile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/edgar2"
+        android:rotation="0"
+        />
+
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/iname"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_below="@+id/iprofile"
+        android:textStyle="bold"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Track:  Android"
+        android:layout_marginTop="340dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        android:text="Country:  Kenya"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp"
+        android:textSize="20dp"
+        android:text="Email:  eddy8471@gmail.com"/>
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:text="Phone Number: 0724145257"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="550dp"
+        android:text="Slack Name: @edgaryungo"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

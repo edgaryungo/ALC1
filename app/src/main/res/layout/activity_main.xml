@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:onClick="sendMessage"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/btn"
+        android:text="About ALC"
+        android:textSize="16sp"
+        style="?android:attr/borderlessButtonStyle"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/btn"
+        android:textSize="16sp"
+        android:text="My Profile"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"
+        android:text="Welcome To ALC"
+        android:textSize="32dp"/>
+
+</RelativeLayout>
